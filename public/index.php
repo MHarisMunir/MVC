@@ -11,7 +11,7 @@
  * Twig
  */
 require_once dirname(__DIR__) . '/vendor/Twig/lib/Twig/Autoloader.php';
-//Twig_Autoloader::register();
+Twig_Autoloader::register();
 
  // Autoloader
  
@@ -65,7 +65,7 @@ if ($router->match($url)) {
     var_dump($router->getParams());
     echo '</pre>';
 } else {
-    echo "No route found for URL '$url'";
+    echo "No route found for URL '$url'";                
 }*/
 
 $router->dispatch($_SERVER['QUERY_STRING']);
