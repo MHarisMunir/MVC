@@ -1,0 +1,4 @@
+[17-Dec-2021 07:10:36 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\Haris_study\Uforia Intern\ampps\www\MVC\public\index.php(83): Core\Router->dispatch('posts/index/pro...')
+#1 {main}
+Thrown in 'D:\Haris_study\Uforia Intern\ampps\www\MVC\Core\Router.php' on line 156
